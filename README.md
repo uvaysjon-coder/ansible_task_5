@@ -21,8 +21,8 @@
 
 ###  I installed Ansible on Amazon Linux by using shell script
 <pre>
-sudo yum install epel-release -y
-sudo yum install ansible -y
+sudo yum update -y
+sudo amazon-linux-extras install ansible2 -y
 </pre>
 ![alt text](/screenshots/Picture2.png)
 

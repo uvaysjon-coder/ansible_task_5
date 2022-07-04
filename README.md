@@ -57,11 +57,12 @@ ansible all -m ping
 
 ![alt text](./screenshots/Picture3.png)
 
-### 3. I wrote a playbook for installing Docker on two machines and run it by following command: <pre>
-ansible-playbook playbook.yml       
-</pre>
+## Task 3
 
-#### [playbook.yml](/mandatory_task/playbook.yml)
+###  I wrote a playbook for installing Docker on two machines and run it by following command: <pre>
+
+#### ansible playbook: [playbook.yml](./mandatory_task/playbook.yml)    
+
 <pre>
 ---
 - name: Install Docker
